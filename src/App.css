@@ -1,18 +1,22 @@
+/* Center-align text in the entire app */
 .App {
   text-align: center;
 }
 
+/* Styling for the App logo */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
+/* Logo animation when prefers-reduced-motion is not set */
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
+/* Styling for the header */
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -24,15 +28,35 @@
   color: white;
 }
 
+/* Styling for links */
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+/* Styling for the left container (EmailForm) */
+.left-container {
+  float: left;
+  width: 50%;
+  box-sizing: border-box; /* Include padding and border in the width calculation */
+  padding: 20px;
+  /* Add other styles as needed */
+}
+
+/* Styling for the right container (CardGrid) */
+.right-container {
+  float: right;
+  width: 50%;
+  box-sizing: border-box; /* Include padding and border in the width calculation */
+  padding: 20px;
+  /* Add other styles as needed */
+}
+
+/* Media query for mobile devices (max-width: 768px) */
+@media (max-width: 768px) {
+  /* Reset float and width for both containers to stack vertically */
+  .left-container,
+  .right-container {
+    width: 100%;
+    float: none;
   }
 }

@@ -1,0 +1,23 @@
+/* CardGrid.css */
+
+/* CSS for the card grid container */
+.card-grid-container {
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust the height as needed */
+  }
+  
+  /* CSS for the card grid */
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-gap: 20px; /* Adjust the gap between cards */
+    max-width: 900px; /* Adjust the maximum width */
+    font: normal normal normal 24px/29px Exo 2.0;
+     
+  }
+  
+  /* Additional styles for individual cards can be applied in Card.css */
+  

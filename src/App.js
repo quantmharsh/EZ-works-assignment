@@ -1,23 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import EmailForm from './EmailForm';
+import Card from './Card';
+import Cardgrid from './Cardgrid';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    // <div className="App">
+      <div className='container'>
+       <div className="left-container">
+        <EmailForm /> {/* EmailForm component on the left */}
+      </div>
+      <div className="right-container">
+        <Cardgrid /> {/* CardGrid component on the right */}
+      </div>
+      {/* </div> */}
+     
     </div>
   );
 }

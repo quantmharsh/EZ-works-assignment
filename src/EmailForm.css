@@ -1,0 +1,51 @@
+.email-form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 100px;
+   
+    border-radius: 5px;
+   
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="email"] {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  /* EmailForm.css */
+
+.ezlogo {
+  top: 256px;
+  left: 40px;
+  width: 300px;
+  height:auto;
+ 
+
+  opacity: 1;
+}

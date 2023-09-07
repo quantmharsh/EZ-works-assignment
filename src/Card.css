@@ -1,0 +1,48 @@
+/* CSS for the card container */
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    top: 0px;
+    width: 200px;
+    height: 150px; /* Initial card size */
+    margin: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #112949;
+}
+
+/* CSS for the title (link) */
+.card h2 {
+    margin: 0;
+    font-size: 16px;
+    color: #3CC3F2; /* Link color */
+    cursor: pointer;
+}
+
+/* Hover effect for the title (link) */
+.card h2:hover {
+    text-decoration: none;
+}
+
+/* CSS for the text content */
+.card p {
+    margin: 10px 0;
+    font-size: 14px;
+    color:#FFFFFF;
+}
+
+/* Define the card size for smaller screens */
+@media (max-width: 768px) {
+    .card {
+        width: 150px; /* Adjust the width for smaller screens */
+        height: 120px; /* Adjust the height for smaller screens */
+    }
+}
+
+/* Define the card size for even smaller screens */
+@media (max-width: 480px) {
+    .card {
+        width: 100%; /* Make the card 100% wide on screens with max width of 480px */
+        height: auto; /* Allow the card height to adapt to content */
+    }
+}
